@@ -1,7 +1,22 @@
 <!-- open the primary site navigation -->
-<nav id="primary-nav" class="ui fixed inverted menu">
+<nav id="primary-nav" class="ui large top fixed menu">
 	<div class="ui container">
-		
+		<a href="{{ site.baseurl }}/" class="header item">
+			<img class="logo" src="http://placehold.it/140x100" alt="RGR logo">
+			{{ site.title }}
+		</a>
+		<a href="/about/" class="item">About</a>
+		<a href="/products/" class="item">Products</a>
+		<a href="/services" class="item">Services</a>
+		<a href="/contact" class="item">
+			<button class="ui primary button">Contact</button>
+		</a>
+	</div>
+</nav>
+<!-- close /#primary-nav -->
+
+<!-- dynamic code for menu -->
+<!--
 		<a  href="{{ site.baseurl }}/" class="header item">
 			<img class="logo" src="http://placehold.it/140x100" alt="RGR logo">
 			{{ site.title }}
@@ -17,6 +32,4 @@
 			{% for my_page in site.pages %} {% if my_page.title %}
 			<a class="item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
 			{% endif %} {% endfor %}
-	</div>
-</nav>
-<!-- close /#primary-nav -->
+-->
