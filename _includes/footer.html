@@ -1,38 +1,36 @@
-<footer class="">
+<!-- open the primary site footer -->
+<footer id="primary-footer" class="ui container">
 
-  <div class="ui container">
+	<h2 class="ui header">{{ site.title }}</h2>
 
-    <h2 class="ui header">{{ site.title }}</h2>
+	<div class="ui stackable inverted divided equal height stackable grid">
+		<div class="four wide column">
+			<ul class="contact-list">
+				<li>{{ site.title }}</li>
+				<li><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+				</li>
+			</ul>
+		</div>
 
-    <div class="ui stackable inverted divided equal height stackable grid">
-      <div class="four wide column">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+		<div class="four wide column">
+			<ul class="social-media-list">
+				{% if site.github_username %}
+				<li>
+					{% include icon-github.html username=site.github_username %}
+				</li>
+				{% endif %} {% if site.twitter_username %}
+				<li>
+					{% include icon-twitter.html username=site.twitter_username %}
+				</li>
+				{% endif %}
+			</ul>
+		</div>
 
-      <div class="four wide column">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="four wide column">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
+		<div class="four wide column">
+			<p>{{ site.description }}</p>
+		</div>
+		
+	</div>
 
 </footer>
+<!-- close /footer -->
