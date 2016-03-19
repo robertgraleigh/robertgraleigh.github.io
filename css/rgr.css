@@ -1,5 +1,11 @@
 #home-header {
-	background-image: url(http://loremflickr.com/1200/768/portland");
+	background-image: url(http://loremflickr.com/1200/768/portland);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#about-header {
+	background-image: url(http://loremflickr.com/1200/768/portland);
 	background-attachment: fixed;
 	background-size: cover;
 }
