@@ -2,10 +2,30 @@
 	background-image: url(http://loremflickr.com/1200/768/portland);
 	background-attachment: fixed;
 	background-size: cover;
+	width: auto;
+	height: 768px;
 }
 
 #about-header {
-	background-image: url(http://loremflickr.com/1200/768/portland);
+	background-image: url(http://loremflickr.com/1200/523/portland);
 	background-attachment: fixed;
 	background-size: cover;
+	width: auto;
+	height: 523px;
+}
+
+#products-header {
+	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 523px;
+}
+
+#services-header {
+	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 523px;
 }
