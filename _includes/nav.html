@@ -2,44 +2,64 @@
 <nav id="primary-nav" class="ui large top fixed menu">
 	<div class="ui container">
 		<a href="{{ site.baseurl }}/" class="header item">
-			<img class="logo" src="http://placehold.it/140x100" alt="RGR logo">
-			{{ site.title }}
+			<img class="logo" src="http://placehold.it/140x100" alt="RGR logo">{{ site.title }}
 		</a>
-		<div class="ui pointing dropdown link item">
-			<span class="text">About</span>
-			<i class="dropdown icon"></i>
-			<ul class="menu">
-				<li class="header">About</li>
-				<li class="item">Technical Skills</li>
-				<li class="item">Soft Skills</li>
-				<li class="item">Contact</li>
-			</ul>
-		</div>
-		<a href="" class="ui pointing dropdown link item">
+  <div class="ui simple dropdown item">
+		<span class="text">About</span>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+			<div class="item">
+				<a href="/about/">About</a>
+			</div>
+      <div class="item">About Robert</div>
+      <div class="item">Robert's Story</div>
+      <div class="item">Experience</div>
+      <div class="item">Technical Skills</div>
+      <div class="item">Soft Skills</div>
+			<div class="item">Blog</div>
+      <div class="item">Contact</div>
+    </div>
+  </div>
+		<div class="ui simple dropdown item">
 			<span class="text">Products</span>
 			<i class="dropdown icon"></i>
 			<ul class="menu">
-				<li class="header">Products</li>
+				<li class="item">
+					<a href="/products/">Products</a>
+				</li>
 				<li class="item">Websites</li>
-				<li class="item">Shops</li>
+				<li class="item">Stores</li>
 				<li class="item">Blogs</li>
 			</ul>
-		</a>
-		<a href="" class="ui pointing dropdown link item">
-			<span class="text">Services</span>
-			<i class="dropdown icon"></i>
-			<ul class="menu">
-				<li class="header">Services</li>
-				<li class="item">Web Development</li>
-				<li class="item">UI/UX Design</li>
-				<li class="item">Copywriting</li>
-			</ul>
-		</a>
-		<a href="/company" class="item">Company</a>
-		<a href="/contact" class="item">
-			<button class="ui primary button">Contact</button>
-		</a>
-	</div>
+		</div>
+  <div class="ui simple dropdown item">
+    Services
+    <i class="dropdown icon"></i>
+    <div class="menu">
+			<li class="item">
+				<a href="/services/">Services</a>
+			</li>
+      <div class="item">Web Development</div>
+      <div class="item">UI/UX Design</div>
+      <div class="item">E-Commerce</div>
+			<div class="item">Copywriting</div>
+    </div>
+  </div>
+  <div class="ui simple dropdown item">
+    Company
+    <i class="dropdown icon"></i>
+    <div class="menu">
+				<li class="item">
+					<a href="/company/">Company</a>
+				</li>
+      <div class="item">Choice 1</div>
+      <div class="item">Choice 2</div>
+      <div class="item">Choice 3</div>
+    </div>
+  </div>
+	<a href="/contact" class="item">
+		<button class="ui primary button">Contact</button>
+	</a>	
 </nav>
 <!-- close /#primary-nav -->
 
