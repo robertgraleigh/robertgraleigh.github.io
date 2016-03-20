@@ -37,3 +37,11 @@
 	width: auto;
 	height: 523px;
 }
+
+#contact-header {
+	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 523px;
+}
