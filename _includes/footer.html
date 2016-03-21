@@ -1,17 +1,80 @@
 <!-- open the primary site footer -->
-<footer id="primary-footer" class="ui container">
-
-	<h2 class="ui header">{{ site.title }}</h2>
-
-	<div class="ui stackable inverted divided equal height stackable grid">
+<footer id="primary-footer">
+	<div class="ui stackable inverted divided equal height stackable grid container">
+		<div class="three wide column">
+			<div class="ui link divided list">
+				<a href="" class="item"><h3 class="">About</h3></a>
+				<a href="" class="item">About Robert</a>
+				<a href="" class="item">Robert's Story</a>
+				<a href="" class="item">Work Experience</a>
+				<a href="" class="item">Technical Skills</a>
+				<a href="" class="item">Soft Skills</a>
+				<a href="" class="item">Testimonials</a>
+				<a href="" class="item">Blog</a>
+				<a href="" class="item">Contact Us</a>
+			</div>
+			<!-- close /ul -->
+		</div>
+		<!-- close /div -->
+		<div class="three wide column">
+			<div class="ui link divided list">
+				<a href="" class="item"><h3 class="">Products</h3></a>
+				<a href="" class="item">Simple Websites</a>
+				<a href="" class="item">Complex Websites</a>
+				<a href="" class="item">Online Stores</a>
+				<a href="" class="item">Blogs</a>
+				<a href="" class="item">Pricing</a>
+			</div>
+			<!-- close /ul -->
+		</div>
+		<!-- close /div -->
+		<div class="three wide column">
+			<div class="ui link divided list">
+				<a href="" class="item"><h3 class="">Solutions</h3></a>
+				<a href="" class="item">Web Development</a>
+				<a href="" class="item">UI/UX Design</a>
+				<a href="" class="item">Product Management</a>
+				<a href="" class="item">E-Commerce</a>
+				<a href="" class="item">Copywriting</a>
+			</div>
+			<!-- close /ul -->
+		</div>
+		<!-- close /div -->
+		<div class="three wide column">
+			<div class="ui link divided list">
+				<a href="" class="item"><h3 class="">Company</h3></a>
+				<a href="" class="item">Robert's Story</a>
+				<a href="" class="item">Robert's Story</a>
+				<a href="" class="item">Testimonials</a>
+				<a href="" class="item">Blog</a>
+				<a href="" class="item">Contact Us</a>
+			</div>
+			<!-- close /ul -->
+		</div>
+		<!-- close /div -->
+		<div class="three wide column">
+			<div class="ui link divided list">
+				<a href="" class="item"><h3 class="">Resources</h3></a>
+				<a href="" class="item">Articles</a>
+				<a href="" class="item">Books</a>
+				<a href="" class="item">Tutorials</a>
+				<a href="" class="item">Blog</a>
+			</div>
+			<!-- close /ul -->
+		</div>
+		<!-- close /div -->
+	</div>
+	<!-- close /div -->
+	<div class="ui stackable inverted divided equal height stackable grid container">
 		<div class="four wide column">
 			<ul class="contact-list">
 				<li>{{ site.title }}</li>
 				<li><a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</li>
 			</ul>
+			<!-- close /ul -->
 		</div>
-
+		<!-- /div -->
 		<div class="four wide column">
 			<ul class="social-media-list">
 				{% if site.github_username %}
@@ -24,13 +87,14 @@
 				</li>
 				{% endif %}
 			</ul>
+			<!-- close /ul -->
 		</div>
-
+		<!-- /div -->
 		<div class="four wide column">
 			<p>{{ site.description }}</p>
 		</div>
-		
+		<!-- /div -->
 	</div>
-
+	<!-- /div -->
 </footer>
 <!-- close /footer -->

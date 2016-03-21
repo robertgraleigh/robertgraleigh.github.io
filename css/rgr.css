@@ -1,47 +1,68 @@
+/* displays on the home page of the site*/
 #home-header {
-	background-image: url(http://loremflickr.com/1200/768/portland);
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 768px;
 }
 
+/* displays on the about page of the site */
 #about-header {
-	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 523px;
 }
 
+/* displays on the products page of the site */
 #products-header {
-	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 523px;
 }
 
-#services-header {
-	background-image: url(http://loremflickr.com/1200/523/portland);
+/* displays on the solutions page of the website */
+#solutions-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 523px;
 }
 
+/* displays on the company page of the website */
 #company-header {
-	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 523px;
 }
 
+/* displays on the contact page of the website */
 #contact-header {
-	background-image: url(http://loremflickr.com/1200/523/portland);
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 523px;
+}
+
+/* basic footer */
+#basic-footer {
+	background-color: white;
+}
+
+/* primary footer */
+#primary-footer {
+	background-color: darkgray;
+}
+
+/* secondary footer */
+#secondary-footer {
+	background-color: lightgray;
 }
