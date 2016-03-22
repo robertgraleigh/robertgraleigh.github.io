@@ -1,3 +1,7 @@
+/* ================
+Custom Page Headers 
+================ */
+
 /* displays on the home page of the site*/
 #home-header {
 	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
@@ -53,6 +57,18 @@
 	height: 523px;
 }
 
+/* =============== 
+Contact Us Section
+=============== */
+/* 
+#contact-section {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 284px;	
+}
+
 /* basic footer */
 #basic-footer {
 	background-color: white;
@@ -66,4 +82,38 @@
 /* secondary footer */
 #secondary-footer {
 	background-color: lightgray;
+}
+
+/* ================== 
+Custom Heading Styles
+================== */
+
+h1 .brand {
+	font-family: ;
+	font-size: 5rem;
+}
+
+h2 .brand {
+	font-family: ;
+	font-size: 4rem;
+}
+
+h3 .brand {
+	font-family: ;
+	font-size: 3rem;
+}
+
+h4 .brand {
+	font-family: ;
+	font-size: 2rem;
+}
+
+h5 .brand {
+	font-family: ;
+	font-size: 1rem;
+}
+
+h6 .brand {
+	font-family: ;
+	font-size: 1rem;
 }
