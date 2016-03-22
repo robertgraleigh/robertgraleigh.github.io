@@ -11,9 +11,10 @@
 #about-header {
 	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
+	background-position: top left;
 	background-size: cover;
 	width: auto;
-	height: 523px;
+	height: 284px;
 }
 
 /* displays on the products page of the site */
