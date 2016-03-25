@@ -88,31 +88,37 @@ Contact Us Section
 Custom Heading Styles
 ================== */
 
+/* h1 uses custom brand font */
 h1 .brand {
 	font-family: ;
 	font-size: 5rem;
 }
 
+/* h2 uses custom brand font */
 h2 .brand {
 	font-family: ;
 	font-size: 4rem;
 }
 
+/* h3 uses custom brand font */
 h3 .brand {
 	font-family: ;
 	font-size: 3rem;
 }
 
+/* h4 uses custom brand font */
 h4 .brand {
 	font-family: ;
 	font-size: 2rem;
 }
 
+/* h5 uses custom brand font */
 h5 .brand {
 	font-family: ;
 	font-size: 1rem;
 }
 
+/* h6 uses custom brand font */
 h6 .brand {
 	font-family: ;
 	font-size: 1rem;
