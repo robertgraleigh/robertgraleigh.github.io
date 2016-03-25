@@ -117,3 +117,37 @@ h6 .brand {
 	font-family: ;
 	font-size: 1rem;
 }
+
+/* =====================
+CUSTOM BACKGROUND COLORS
+===================== */
+
+/* blue background */
+.blue .background {
+	background-color: blue;
+}
+
+/* red background */
+.red .background {
+	background-color: red;
+}
+
+/* yellow background */
+.yellow .background {
+	background-color: yellow;
+}
+
+/* green background */
+.green .background {
+	background-color: green;
+}
+
+/* dark gray background */
+.dark-gray .background {
+	background-color: darkgray;
+}
+
+/* light gray background */
+.light-gray .background {
+	background-color: lightgray;
+}
