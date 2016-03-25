@@ -1,6 +1,6 @@
-<!-- open the primary site footer -->
-<footer id="primary-footer">
-	<div class="ui stackable inverted divided equal height stackable grid container">
+<!-- open secondary nav -->
+<nav id="" class="ui stackable container">
+	<div class="ui padded grid container">
 		<div class="three wide column">
 			<div class="ui link divided list">
 				<a href="" class="item"><h3 class="">About</h3></a>
@@ -65,17 +65,30 @@
 		<!-- close /div -->
 	</div>
 	<!-- close /div -->
-	<div class="ui stackable inverted divided equal height stackable grid container">
+</nav>
+<!-- close /nav -->
+
+<!-- open the primary site footer -->
+<footer id="primary-footer" class="inverted segment">
+	<div class="ui stackable divided equal height stackable grid container">
 		<div class="four wide column">
+			<h3 class="ui header">About {{site.title}}</h3>
+			<p>{{ site.description }}</p>
+		</div>
+		<!-- /div -->
+		<div class="four wide column">
+			<h3 class="ui header">Contact Info</h3>
 			<ul class="contact-list">
-				<li>{{ site.title }}</li>
-				<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-				<li><a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+				<li><a href="mailto:{{ site.email }}" class="ui link"><i class="fa fa-envelope fa-fw"></i> {{ site.email }}</a></li>
+				<li><a href="tel:{{ site.phone }}" class="ui link"><i class="fa fa-phone fa-fw"></i> {{ site.phone }}</a></li>
+				<li><a href="" class="ui link"><i class="fa fa-coffee fa-fw"></i> Let's grab coffee</a></li>
+				<li><a href="" class="ui link"><i class="fa fa-map fa-fw"></i> 334 NW 11th Ave</a></li>
 			</ul>
 			<!-- close /ul -->
 		</div>
 		<!-- /div -->
 		<div class="four wide column">
+			<h3 class="ui header">Connect to us</h3>
 			<ul class="social-media-list">
 				{% if site.github_username %}
 				<li>
@@ -91,7 +104,14 @@
 		</div>
 		<!-- /div -->
 		<div class="four wide column">
-			<p>{{ site.description }}</p>
+			<h3 class="ui header">Subscribe</h3>
+			<form class="ui form gray inverted segment">
+				<input type="text" placeholder="Full Name">
+				<input type="email" placeholder="email">
+				<input type="text" placeholder="Zip Code">
+				<a class="ui basic blue button">Subscribe</a>
+			</form>
+			<!-- close /form -->
 		</div>
 		<!-- /div -->
 	</div>
