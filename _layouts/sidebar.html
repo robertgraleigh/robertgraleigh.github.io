@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+	<!-- open body -->
+  <body>
+		
+		<!-- open nav -->
+		<nav class="ui sidebar inverted vertical menu">
+			<a class="item">1</a>
+			<a class="item">1</a>
+			<a class="item">1</a>
+			<a class="item">1</a>
+			<a class="item">1</a>
+		</nav>
+		<!-- close /nav -->
+		
+		<div class="pusher">
+		
+    	{% include nav.html %}
+
+    	{{ content }}
+			
+    	{% include footer.html %}
+		
+			{% include copyright.html %}
+			
+		</div>
+
+  </body>
+	<!-- close /body -->
+	
+</html>
+<!-- close /html -->
