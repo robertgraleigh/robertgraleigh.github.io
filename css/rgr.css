@@ -13,7 +13,8 @@ html {
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
-	height: 768px;
+	height: 523px;
+	/* height: 768px; */
 }
 
 /* displays on the about page of the site */
@@ -134,31 +135,31 @@ CUSTOM BACKGROUND COLORS
 ===================== */
 
 /* blue background */
-.blue .background {
-	background-color: blue;
+.ui .blue-background {
+	background: #0099cc;
 }
 
 /* red background */
-.red .background {
-	background-color: red;
+.ui.red-background {
+	background-color: red !important;
 }
 
 /* yellow background */
-.yellow .background {
+.ui.yellow.background {
 	background-color: yellow;
 }
 
 /* green background */
-.green .background {
+.ui > .green > .background {
 	background-color: green;
 }
 
 /* dark gray background */
-.dark-gray .background {
+.ui.dark-gray.background {
 	background-color: darkgray;
 }
 
 /* light gray background */
-.light-gray .background {
+.ui.light-gray .background {
 	background-color: lightgray;
 }
