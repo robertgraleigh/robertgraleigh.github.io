@@ -2,11 +2,6 @@
 Custom Page Headers 
 ================ */
 
-html {
-	margin-top: 60px;
-	padding: 0px;
-}
-
 /* displays on the home page of the site*/
 #home-header {
 	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
@@ -63,16 +58,29 @@ html {
 	height: 284px;
 }
 
-/* =============== 
-Contact Us Section
-=============== */
-/* 
-#contact-section {
-	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+#about-contact-robert {
+	background-color: lightgrey;
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
-	height: 284px;	
+	height: 523px;
+}
+
+#secondary-nav {
+	background-color: lightgrey;
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 323px;
+}
+
+/* =============== 
+Contact Us Section
+=============== */
+/* */
+
+html {
+	padding-top: 55px;
 }
 
 /* basic footer */
@@ -96,19 +104,22 @@ Custom Heading Styles
 
 /* h1 uses custom brand font */
 h1 .brand {
-	font-family: ;
+	font-family: 'Georgia', sans-serif;
+	font-weight: normal;
 	font-size: 5rem;
 }
 
 /* h2 uses custom brand font */
 h2 .brand {
-	font-family: ;
+	font-family: 'Georgia', sans-serif;
+	font-weight: normal;
 	font-size: 4rem;
 }
 
 /* h3 uses custom brand font */
 h3 .brand {
-	font-family: ;
+	font-family: 'Georgia', sans-serif;
+	font-weight: normal;
 	font-size: 3rem;
 }
 
