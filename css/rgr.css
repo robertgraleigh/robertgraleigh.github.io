@@ -32,12 +32,12 @@ Custom Page Headers
 }
 
 /* displays on the solutions page of the website */
-#solutions-header {
+#services-header {
 	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
-	height: 284px;
+	height: 500px;
 }
 
 /* displays on the company page of the website */
