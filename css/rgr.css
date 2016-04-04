@@ -19,7 +19,7 @@ Custom Page Headers
 	background-position: top left;
 	background-size: cover;
 	width: auto;
-	height: 284px;
+	height: 500px;
 }
 
 /* displays on the products page of the site */
@@ -173,4 +173,14 @@ CUSTOM BACKGROUND COLORS
 /* light gray background */
 .ui.light-gray .background {
 	background-color: lightgray;
+}
+
+/* turns headings into uppercase */
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase !important;
+}
+
+/* places a border below a header */
+.header-border {
+	border-bottom: solid 2px darkgrey;
 }
