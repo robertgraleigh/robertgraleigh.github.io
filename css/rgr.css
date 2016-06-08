@@ -73,7 +73,7 @@ Custom Page Headers
 }
 
 #secondary-nav {
-	background-color: lightgrey;
+	background-color: #ffffff !important;
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
