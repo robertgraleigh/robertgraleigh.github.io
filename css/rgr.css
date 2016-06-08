@@ -180,11 +180,17 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase !important;
 }
 
+p {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
 /* controls the default webfont used for the brand */
 .brand {
 	font-family: '', '', sans-serif;
 	font-weight: normal;
-	font-size: inherit;	
+	font-size: inherit;
 }
 
 /* places a border below a header */
