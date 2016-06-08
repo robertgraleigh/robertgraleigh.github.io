@@ -2,7 +2,10 @@
 Reset Semantic Page Elements
 ========================= */
 
-
+header {
+	margin: 0px !important;
+	padding: 0px !important;
+}
 
 /* ================
 Custom Page Headers
