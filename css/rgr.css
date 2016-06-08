@@ -208,3 +208,7 @@ a.brand.item {
 .header-border {
 	border-bottom: solid 2px darkgrey;
 }
+
+.straight {
+	border-radius: 0px !important;
+}
