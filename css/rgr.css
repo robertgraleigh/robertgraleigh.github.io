@@ -188,9 +188,20 @@ p {
 
 /* controls the default webfont used for the brand */
 .brand {
-	font-family: '', '', sans-serif;
+	font-family: 'League Gothic', 'Bebas', sans-serif !important;
 	font-weight: normal;
 	font-size: inherit;
+}
+
+a.brand.item {
+	font-family: 'OSP-DIN', 'Bebas', sans-serif !important;
+	font-weight: normal;
+	font-size: 1rem;
+	text-transform: uppercase !important;
+}
+
+.item {
+	text-transform: uppercase !important;
 }
 
 /* places a border below a header */
