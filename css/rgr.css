@@ -1,5 +1,5 @@
 /* ================
-Custom Page Headers 
+Custom Page Headers
 ================ */
 
 /* displays on the home page of the site*/
@@ -74,7 +74,7 @@ Custom Page Headers
 	height: 323px;
 }
 
-/* =============== 
+/* ===============
 Contact Us Section
 =============== */
 /* */
@@ -98,7 +98,7 @@ html {
 	background-color: lightgray;
 }
 
-/* ================== 
+/* ==================
 Custom Heading Styles
 ================== */
 
@@ -178,6 +178,13 @@ CUSTOM BACKGROUND COLORS
 /* turns headings into uppercase */
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase !important;
+}
+
+/* controls the default webfont used for the brand */
+.brand {
+	font-family: '', '', sans-serif;
+	font-weight: normal;
+	font-size: inherit;	
 }
 
 /* places a border below a header */
