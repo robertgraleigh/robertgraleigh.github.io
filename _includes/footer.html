@@ -1,7 +1,6 @@
 <!-- open secondary nav -->
 <nav id="secondary-nav" class="ui straight white segment">
-	<div class="ui padded centered grid container">
-		<div class="ui one wide column"></div>
+	<div class="ui internally celled padded centered grid">
 		<div class="ui three wide column">
 			<div class="ui link divided list">
 				<a href="" class="item"><h3 class="">About</h3></a>
@@ -68,70 +67,3 @@
 	<!-- close /div -->
 </nav>
 <!-- close /nav -->
-
-<!-- open the primary site footer -->
-<footer id="primary-footer" class="ui straight white segment">
-	<div class="ui container">
-		<div class="ui stackable divided equal height stackable grid">
-			<div class="four wide column">
-				<h3 class="ui header">About {{site.title}}</h3>
-				<p>{{ site.description }}</p>
-			</div>
-			<!-- /div -->
-			<div class="four wide column">
-				<h3 class="ui header">Get in touch</h3>
-				<ul class="contact-list">
-					<li><a href="mailto:{{ site.email }}" class="ui link"><i class="fa fa-envelope fa-fw"></i> {{ site.email }}</a>
-					</li>
-					<li><a href="tel:{{ site.phone }}" class="ui link"><i class="fa fa-phone fa-fw"></i> {{ site.phone }}</a>
-					</li>
-					<li><a href="" class="ui link"><i class="fa fa-map-marker fa-fw"></i> 334 NW 11th Ave</a>
-					</li>
-					<li><a href="" class="ui link"><i class="fa fa-coffee fa-fw"></i> Let's grab coffee</a>
-					</li>
-				</ul>
-				<!-- close /ul -->
-			</div>
-			<!-- /div -->
-			<div class="four wide column">
-				<h3 class="ui header">Connect with us</h3>
-				<ul class="social-media-list">
-					{% if site.github_username %}
-					<li>
-						{% include icon-github.html username=site.github_username %}
-					</li>
-					{% endif %} {% if site.twitter_username %}
-					<li>
-						{% include icon-twitter.html username=site.twitter_username %}
-					</li>
-					{% endif %}
-				</ul>
-				<!-- close /ul -->
-			</div>
-			<!-- /div -->
-			<div class="four wide column">
-				<!-- open newsletter header -->
-				<div class="ui straight white segment">
-					<!-- open newsletter form -->
-					<form id="newsletter" class="ui form">
-						<h3 class="ui huge header"></h3>
-						<p>This is the main section of the home page website.</p>
-						<label></label>
-						<input type="text" placeholder="First Name">
-						<label></label>
-						<input type="text" placeholder="Last Name">
-						<label></label>
-						<input type="email" placeholder="Email Address">
-						<button class="ui basic blue button">Subscribe</button>
-					</form>
-					<!-- close /newsletter form -->
-				</div>
-				<!-- close /div -->
-			</div>
-			<!-- close /div -->
-		</div>
-		<!-- /div -->
-	</div>
-	<!-- close /div -->
-</footer>
-<!-- close /footer -->

@@ -2,24 +2,29 @@
 layout: default
 title: About
 desc: Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.
+copyOne: Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.
+copyTwo: Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.
+copyThree: Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.
 permalink: /about/
 ---
 
 <!-- open header -->
 <header class="ui straight white segment">
 	<div class="ui internally celled grid">
-		<div class="ui ten wide column">
+		<div class="ui ten wide inverted blue column">
 			<h1 class="ui huge center aligned uppercase header">
-				<span class="header-border">{{page.title}}</span>
+				{{page.title}}
 			</h1>
 			<p>{{ page.desc }}</p>
 		</div>
 		<!-- close /div -->
 		<div class="ui six wide column">
-			<h2 class="">About</h2>
-			<p>Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.</p>
-			<p>Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.</p>
-			<p>Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher.</p>
+			<h2 class="">
+				<span class="header-border">{{page.title}}</span>
+			</h2>
+			<p>{{page.copyOne}}</p>
+			<p>{{page.copyTwo}}</p>
+			<p>{{page.copyThree</p>
 			<a class="ui basic blue button">Button one</a>
 			<a class="ui basic grey button">Button two</a>
 		</div>
@@ -29,7 +34,7 @@ permalink: /about/
 </header>
 <!-- close /header -->
 
-<!-- open about robert profile -->
+<!-- open section -->
 <section id="about-robert-profile">
 	<div class="ui centered relaxed grid container">
 		<div class="ui four wide column">
@@ -37,7 +42,6 @@ permalink: /about/
 		</div>
 		<!-- close /div -->
 		<div class="ui eight wide column">
-			<div class="ui raised segment">
 				<h2 class="ui huge header">About Robert G. Raleigh </h2>
 				<p>Mustache franzen single-origin coffee selvage. Typewriter semiotics gluten-free hella poutine butcher, sartorial XOXO vegan iPhone. Trust fund kinfolk quinoa next level. Quinoa irony tofu affogato, tilde celiac gluten-free. Leggings mustache franzen yuccie, plaid four loko schlitz viral shabby chic kogi. Tousled 90's taxidermy pork belly ramps, echo park squid keffiyeh sartorial lomo typewriter. Pug brooklyn affogato bushwick.</p>
 				<h3 class="ui header">Contact Robert</h3>
@@ -82,13 +86,11 @@ permalink: /about/
 				</div>
 				<!-- close /div -->
 			</div>
-			<!-- close /div -->
-		</div>
-		<!-- close /div -->	
+			<!-- close /div -->	
 	</div>
 	<!-- close /div -->
 </section>
-<!-- close about robert profile -->
+<!-- close /section -->
 
 <!-- open section -->
 <section id="roberts-story" class="ui stackable blue background relaxed grid container">
