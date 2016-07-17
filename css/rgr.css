@@ -21,6 +21,16 @@ Custom Page Headers
 	/* height: 768px; */
 }
 
+/* displays on the home page of the site*/
+#main-header {
+	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 523px;
+	/* height: 768px; */
+}
+
 /* displays on the about page of the site */
 #about-header {
 	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
@@ -81,6 +91,10 @@ Custom Page Headers
 	background-size: cover;
 	width: auto;
 	height: 323px;
+}
+
+.blue.bottom.border {
+	border-bottom: solid 2px blue;
 }
 
 /* ===============
@@ -147,6 +161,19 @@ h5 .brand {
 /* h6 uses custom brand font */
 h6 .brand {
 	font-family: ;
+	font-size: 1rem;
+}
+
+/* ==============
+CUSTOM PARAGRAPHS
+============== */
+p {
+	font-size: 1rem;
+}
+
+.ui.text {
+	font-family: 'Georgia', 'Times New Roman', 'serif';
+	font-weight: normal;
 	font-size: 1rem;
 }
 
