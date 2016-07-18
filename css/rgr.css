@@ -244,7 +244,13 @@ a.brand.item {
 .header-border {
 	border-bottom: solid 2px darkgrey;
 }
-
-.straight {
+/* transforms the default segment into a straight one */
+.ui.straight.segment {
 	border-radius: 0px !important;
+}
+
+/* transforms the default header into uppercase */
+.ui.uppercase.header {
+	text-transform: uppercase;
+	text-rendering:
 }
