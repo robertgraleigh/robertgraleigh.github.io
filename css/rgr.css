@@ -2,9 +2,25 @@
 Reset Semantic Page Elements
 ========================= */
 
+/* sets default html settings */
+html {
+
+}
+
+/* sets default body settings */
+body {
+
+}
+
+/* overrides default header settings */
 header {
 	margin: 0px !important;
 	padding: 0px !important;
+}
+
+/* overrides default section settings */
+section {
+	margin: 0px !important;
 }
 
 /* ================
