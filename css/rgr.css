@@ -141,41 +141,45 @@ html {
 Custom Heading Styles
 ================== */
 
-/* h1 uses custom brand font */
-h1 .brand {
-	font-family: 'Georgia', sans-serif;
+/* overrides the default h1 styles */
+h1 {
+	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 5rem;
 }
 
-/* h2 uses custom brand font */
-h2 .brand {
-	font-family: 'Georgia', sans-serif;
+/* overrides the default h2 styles */
+h2 {
+	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 4rem;
 }
 
-/* h3 uses custom brand font */
-h3 .brand {
-	font-family: 'Georgia', sans-serif;
+/* overrides the default h3 styles */
+h3 {
+	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 3rem;
 }
 
-/* h4 uses custom brand font */
-h4 .brand {
-	font-family: ;
+/* overrides the default h4 */
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 	font-size: 2rem;
 }
 
 /* overrides the default h5 sizing */
 h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 	font-size: 1rem;
 }
 
 /* overrides the default h6 sizing */
 h6 {
-	font-family: ;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
 	font-size: 1rem;
 }
 
@@ -271,4 +275,8 @@ a.brand.item {
 	font-family: 'Helvetica';
 	font-size: 1rem !important;
 	font-weight: normal;
+}
+
+.grey.bottom.border {
+	border-bottom: solid 2px #333333;
 }
