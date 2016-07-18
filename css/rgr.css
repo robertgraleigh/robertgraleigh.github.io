@@ -4,12 +4,16 @@ Reset Semantic Page Elements
 
 /* sets default html settings */
 html {
-
+	margin: 0px;
+	padding: 0px;
+	font-size: 62.5%;
 }
 
 /* sets default body settings */
 body {
-
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.6rem;
 }
 
 /* overrides default header settings */
@@ -118,10 +122,6 @@ Contact Us Section
 =============== */
 /* */
 
-html {
-	padding-top: 0px;
-}
-
 /* basic footer */
 #basic-footer {
 	background-color: white;
@@ -149,35 +149,35 @@ h1 {
 }
 
 /* overrides the default h2 styles */
-h2 {
+h2.ui.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 4rem;
 }
 
 /* overrides the default h3 styles */
-h3 {
+h3.ui.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 2.25rem;
 }
 
 /* overrides the default h4 */
-h4 {
+h4.ui.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 2rem;
 }
 
 /* overrides the default h5 sizing */
-h5 {
+h5.ui.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
 }
 
 /* overrides the default h6 sizing */
-h6 {
+h6.ui.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
@@ -189,7 +189,7 @@ CUSTOM PARAGRAPHS
 
 /* overrides the default paragraph text size */
 p {
-	font-size: 1rem;
+	font-size: 1.6rem;
 }
 
 /* transforms the default text style */
