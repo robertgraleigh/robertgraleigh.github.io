@@ -146,7 +146,7 @@ Custom Heading Styles
 ================== */
 
 /* overrides the default h1 styles */
-h1 {
+h1.ui.header {
 	font-family: 'Din Condensed', sans-serif !important;
 	font-weight: normal;
 	font-size: 5rem;
@@ -161,28 +161,28 @@ h2.ui.header {
 
 /* overrides the default h3 styles */
 h3.ui.header {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Din Condensed', sans-serif;
 	font-weight: normal;
 	font-size: 2.25rem;
 }
 
 /* overrides the default h4 */
 h4.ui.header {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Din Condensed', sans-serif;
 	font-weight: normal;
 	font-size: 2rem;
 }
 
 /* overrides the default h5 sizing */
 h5.ui.header {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Din Condensed', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
 }
 
 /* overrides the default h6 sizing */
 h6.ui.header {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Din Condensed', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
 }
@@ -201,6 +201,7 @@ p.ui.text {
 	font-family: 'Georgia', 'Times New Roman', 'sans-serif';
 	font-weight: normal;
 	font-size: 1.6rem !important;
+	text-transform: none !important;
 }
 
 /* =====================
