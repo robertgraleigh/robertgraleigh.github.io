@@ -46,22 +46,12 @@ Custom Page Headers
 
 /* displays on the home page of the site*/
 #home-header {
-	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
+	/* background-image: url(/img/9234898125_d01dc58a83_o.jpg); */
 	background-attachment: fixed;
 	background-size: cover;
 	width: auto;
 	height: 523px;
 	margin-top: 0px !important;
-	/* height: 768px; */
-}
-
-/* displays on the home page of the site*/
-#main-header {
-	background-image: url(/img/9234898125_d01dc58a83_o.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	width: auto;
-	height: 523px;
 	/* height: 768px; */
 }
 
