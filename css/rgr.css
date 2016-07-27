@@ -224,6 +224,11 @@ p.ui.text {
 	text-transform: none !important;
 }
 
+/* centers the text class paragraph */
+p.ui.center.aligned.text {
+	text-align: center;
+}
+
 /* =====================
 CUSTOM BACKGROUND COLORS
 ===================== */
@@ -304,4 +309,12 @@ a.ui.brand.item {
 
 .grey.bottom.border {
 	border-bottom: solid 2px #cccccc;
+}
+
+a.ui.basic.grey.button {
+	font-size: 1.6rem !important;
+}
+
+a.ui.basic.blue.button {
+	font-size: 1.6rem !important;
 }
